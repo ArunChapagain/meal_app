@@ -100,7 +100,7 @@ class RecipeItem extends StatelessWidget {
                   ],
                 ),
               ),
-            ],git remote rm origin
+            ],
           ),
         ),
       ),
