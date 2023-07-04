@@ -1,19 +1,20 @@
 import 'package:flutter/material.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:meal_app/Screen/catagories_screen.dart';
 import 'package:meal_app/Screen/favoriate_screen.dart';
 import 'package:meal_app/models/meal.dart';
 import 'package:meal_app/widgets/drawer.dart';
 
-class TabScreen2 extends StatefulWidget {
+class TabScreen2 extends ConsumerStatefulWidget {
   final List<Meal> favoriteMeals;
 
   const TabScreen2({required this.favoriteMeals, super.key});
 
   @override
-  State<TabScreen2> createState() => _TabScreenState();
+  ConsumerState<TabScreen2> createState() => _TabScreenState();
 }
 
-class _TabScreenState extends State<TabScreen2> {
+class _TabScreenState extends ConsumerState<TabScreen2> {
   late List<Map<String, dynamic>> _pages;
 
   @override

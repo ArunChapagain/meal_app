@@ -76,7 +76,7 @@ class _FiltersScreenState extends State<FiltersScreen> {
                     'Gluten-free',
                     'Only include gluten-free meals.',
                     _isGlutenFree,
-                    (newValue) {
+                    (newValue) {  
                       setState(() {
                         _isGlutenFree = newValue;
                       });
