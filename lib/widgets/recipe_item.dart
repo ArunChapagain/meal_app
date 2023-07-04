@@ -10,7 +10,7 @@ class RecipeItem extends StatelessWidget {
   final Complexity complexity;
   final Affordability affordability;
 
-  const RecipeItem({
+  const  RecipeItem({
     required this.id,
     required this.title,
     required this.imgUrl,
